@@ -1,2 +1,11 @@
-## 폴더
-.expo
+# 폴더
+.expo/
+node_modules/
+
+# 확장자
+*.git
+*.jks
+*.p12
+*.key
+*.mobileprovision
+.watchmanconfig

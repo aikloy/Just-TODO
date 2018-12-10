@@ -1,28 +1,33 @@
 {
   "expo": {
-    "name": "github.com/aikloy/just-todo",
-    "description": "aikloy/Just-TODO @ Dec 5, 2018",
-    "slug": "snack-BkxsTxUyE",
-    "privacy": "unlisted",
+    "name": "Just-TODO",
+    "slug": "Just-TODO",
+    "privacy": "public",
     "sdkVersion": "31.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "primaryColor": "#cccccc",
-    "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
-    "loading": {
-      "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
-      "hideExponentText": false
+    "icon": "./assets/logo_image.png",
+    "splash": {
+      "image": "./assets/logo_image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#799cf2"
     },
-    "packagerOpts": {
-      "assetExts": [
-        "ttf",
-        "mp4",
-        "otf",
-        "xml"
-      ]
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.aikloy.just_todo"
+    },
+    "description": ""
   }
 }
